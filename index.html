@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP CSP Exam Prep</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AP CSP Exam Prep</h1>
+    <div class="controls">
+      <input type="file" id="fileInput" accept=".csv">
+      <button id="importBtn">Import Questions</button>
+      <button id="resetBtn">Reset</button>
+      <button id="nextQuestionBtn" disabled>Next Question</button>
+    </div>
+
+    <div class="question-area" id="questionArea">
+      <p id="questionText">Please import a question bank to begin.</p>
+      <div class="choices">
+        <button class="choice-btn" id="choiceA">A</button>
+        <button class="choice-btn" id="choiceB">B</button>
+        <button class="choice-btn" id="choiceC">C</button>
+        <button class="choice-btn" id="choiceD">D</button>
+      </div>
+      <button id="submitBtn" disabled>Submit</button>
+    </div>
+
+    <div class="stats">
+      <p>Number Correct: <span id="numCorrect">0</span></p>
+      <p>Number Answered: <span id="numAnswered">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

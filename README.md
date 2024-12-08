@@ -1,6 +1,6 @@
 # AP CSP Exam Prep Application
 
-## 🚧 Under Construction 🚧
+## 🚧 Under Construction: Not Working 🚧
 
 
 This application is a multiple-choice question practice tool built with `tkinter` for AP Computer Science Principles exam preparation. It allows users to import a question bank from a CSV file, answer questions, and track their progress.  This was made by the instructor as a `.py` file, but I make it into a website.
